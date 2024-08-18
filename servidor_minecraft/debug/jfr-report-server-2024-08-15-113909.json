@@ -1,0 +1,408 @@
+{
+  "startedEpoch": 1723721949952,
+  "endedEpoch": 1723721972773,
+  "durationMs": 22821,
+  "heap": {
+    "allocationRateBytesPerSecond": 4.414005638095238E7,
+    "gcCount": 2,
+    "gcOverHeadPercent": 0.061829016,
+    "gcTotalDurationMs": 1411
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.022030959075147457,
+      "max": 0.04639175161719322
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.39883893592791125,
+      "max": 0.7371134161949158
+    },
+    "system": {
+      "min": 0.0,
+      "average": 0.43865610523657367,
+      "max": 0.8298969268798828
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 1025733,
+      "count": 5449,
+      "bytesPerSecond": 46624.22727272727,
+      "countPerSecond": 247.6818181818182,
+      "topContributors": [
+        {
+          "protocolId": 0,
+          "packetId": 36,
+          "packetName": "ClientboundLevelChunkWithLightPacket",
+          "totalBytes": 840674,
+          "count": 23
+        },
+        {
+          "protocolId": 0,
+          "packetId": 39,
+          "packetName": "ClientboundLightUpdatePacket",
+          "totalBytes": 124200,
+          "count": 46
+        },
+        {
+          "protocolId": 0,
+          "packetId": 43,
+          "packetName": "Pos",
+          "totalBytes": 25299,
+          "count": 2811
+        },
+        {
+          "protocolId": 0,
+          "packetId": 106,
+          "packetName": "ClientboundUpdateAttributesPacket",
+          "totalBytes": 8067,
+          "count": 240
+        },
+        {
+          "protocolId": 0,
+          "packetId": 23,
+          "packetName": "ClientboundCustomPayloadPacket",
+          "totalBytes": 7989,
+          "count": 135
+        },
+        {
+          "protocolId": 0,
+          "packetId": 84,
+          "packetName": "ClientboundSetEntityMotionPacket",
+          "totalBytes": 6424,
+          "count": 803
+        },
+        {
+          "protocolId": 0,
+          "packetId": 44,
+          "packetName": "PosRot",
+          "totalBytes": 3179,
+          "count": 289
+        },
+        {
+          "protocolId": 0,
+          "packetId": 104,
+          "packetName": "ClientboundTeleportEntityPacket",
+          "totalBytes": 2581,
+          "count": 89
+        },
+        {
+          "protocolId": 0,
+          "packetId": 82,
+          "packetName": "ClientboundSetEntityDataPacket",
+          "totalBytes": 1684,
+          "count": 246
+        },
+        {
+          "protocolId": 0,
+          "packetId": 1,
+          "packetName": "ClientboundAddEntityPacket",
+          "totalBytes": 1543,
+          "count": 29
+        }
+      ]
+    },
+    "received": {
+      "totalBytes": 8598,
+      "count": 593,
+      "bytesPerSecond": 390.8181818181818,
+      "countPerSecond": 26.954545454545453,
+      "topContributors": [
+        {
+          "protocolId": 0,
+          "packetId": 31,
+          "packetName": "ServerboundPlayerInputPacket",
+          "totalBytes": 4550,
+          "count": 455
+        },
+        {
+          "protocolId": 0,
+          "packetId": 20,
+          "packetName": "Pos",
+          "totalBytes": 1768,
+          "count": 68
+        },
+        {
+          "protocolId": 0,
+          "packetId": 13,
+          "packetName": "ServerboundCustomPayloadPacket",
+          "totalBytes": 1670,
+          "count": 43
+        },
+        {
+          "protocolId": 0,
+          "packetId": 21,
+          "packetName": "PosRot",
+          "totalBytes": 442,
+          "count": 13
+        },
+        {
+          "protocolId": 0,
+          "packetId": 22,
+          "packetName": "Rot",
+          "totalBytes": 80,
+          "count": 8
+        },
+        {
+          "protocolId": 0,
+          "packetId": 9,
+          "packetName": "ServerboundCommandSuggestionPacket",
+          "totalBytes": 38,
+          "count": 2
+        },
+        {
+          "protocolId": 0,
+          "packetId": 4,
+          "packetName": "ServerboundChatCommandPacket",
+          "totalBytes": 31,
+          "count": 1
+        },
+        {
+          "protocolId": 0,
+          "packetId": 30,
+          "packetName": "ServerboundPlayerCommandPacket",
+          "totalBytes": 10,
+          "count": 2
+        },
+        {
+          "protocolId": 0,
+          "packetId": 18,
+          "packetName": "ServerboundKeepAlivePacket",
+          "totalBytes": 9,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 7909499,
+      "count": 1062,
+      "bytesPerSecond": 359522.6818181818,
+      "countPerSecond": 48.27272727272727,
+      "topContributors": [
+        {
+          "path": "./world/region/r.0.0.mca",
+          "totalBytes": 2060217
+        },
+        {
+          "path": "./world/region/r.0.-1.mca",
+          "totalBytes": 1974046
+        },
+        {
+          "path": "./world/region/r.-1.0.mca",
+          "totalBytes": 1942910
+        },
+        {
+          "path": "./world/region/r.-1.-1.mca",
+          "totalBytes": 1931609
+        },
+        {
+          "path": "logs/latest.log",
+          "totalBytes": 247
+        },
+        {
+          "path": "logs/debug.log",
+          "totalBytes": 247
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 20962,
+      "count": 218,
+      "bytesPerSecond": 952.8181818181819,
+      "countPerSecond": 9.909090909090908,
+      "topContributors": [
+        {
+          "path": "./world/entities/r.-1.-4.mca",
+          "totalBytes": 12288
+        },
+        {
+          "path": "/workspaces/server/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar",
+          "totalBytes": 4456
+        },
+        {
+          "path": "/workspaces/server/servidor_minecraft/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar",
+          "totalBytes": 4218
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 4.094367,
+    "averageMs": 12.928390363636362,
+    "maxMs": 40.33544,
+    "p99": 36.74102624,
+    "p90": 21.5059446,
+    "p75": 15.65934075,
+    "p50": 11.6452005
+  },
+  "threadAllocation": [
+    {
+      "thread": "C1 CompilerThread0",
+      "bytesPerSecond": 6.4
+    },
+    {
+      "thread": "C2 CompilerThread0",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Common-Cleaner",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "DestroyJavaVM",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "FastSuite Recipe Lookup Thread: 2",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "FileSystemWatchService",
+      "bytesPerSecond": -1893.8666666666666
+    },
+    {
+      "thread": "Finalizer",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-10",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-11",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-12",
+      "bytesPerSecond": 331315.73333333334
+    },
+    {
+      "thread": "IO-Worker-13",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "IO-Worker-8",
+      "bytesPerSecond": 94855.46666666666
+    },
+    {
+      "thread": "IO-Worker-9",
+      "bytesPerSecond": 349267.2
+    },
+    {
+      "thread": "JFR Periodic Tasks",
+      "bytesPerSecond": 178.66666666666666
+    },
+    {
+      "thread": "JFR Recorder Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "JNA Cleaner",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Java2D Disposer",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "LanServerPinger #1",
+      "bytesPerSecond": 250.66666666666666
+    },
+    {
+      "thread": "Monitor Deflation Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Epoll Server IO #0",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Epoll Server IO #1",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Epoll Server IO #2",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Epoll Server IO #3",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Epoll Server IO #4",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Netty Epoll Server IO #5",
+      "bytesPerSecond": 343473.6
+    },
+    {
+      "thread": "Netty Epoll Server IO #6",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Notification Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Reference Handler",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Server Watchdog",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Server console handler",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Server thread",
+      "bytesPerSecond": 4.81842224E7
+    },
+    {
+      "thread": "Service Thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Signal Dispatcher",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Thread-2",
+      "bytesPerSecond": 854388.2666666667
+    },
+    {
+      "thread": "Timer hack thread",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-1",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-2",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "Worker-Main-3",
+      "bytesPerSecond": 1698.1333333333334
+    },
+    {
+      "thread": "Yggdrasil Key Fetcher",
+      "bytesPerSecond": 0.0
+    },
+    {
+      "thread": "pool-3-thread-1",
+      "bytesPerSecond": 0.0
+    }
+  ],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}
